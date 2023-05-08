@@ -1,0 +1,96 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN22uATVSuxX6bQb7icRUmS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/gravead/Introduction-to-Computers/blob/main/Untitled0508\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"0508\")"
+      ],
+      "metadata": {
+        "id": "mHt2XW9b1rG1",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "872459bd-5d52-45dc-ebe7-b32743ef635c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0508\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "password=int(input(\"請輸入密碼\"))\n",
+        "if password==1234:\n",
+        "  print(\"密碼正確\")\n",
+        "else:\n",
+        "  print(\"密碼不正確\")"
+      ],
+      "metadata": {
+        "id": "Yju1bh9a2vAo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rain=int(input(\"今天會下雨嗎\"))\n",
+        "if (rain==\"Y \"or rain==\"y\"):\n",
+        "  print(\"出門記得帶傘\")"
+      ],
+      "metadata": {
+        "id": "S3Y1LzD_4yTO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num=int(input(\"請輸入正整數\"))\n",
+        "if (num%2)==0:\n",
+        "  print(\"num是偶數\")\n",
+        "else:\n",
+        "  print(\"num是奇數\")"
+      ],
+      "metadata": {
+        "id": "xibsAAi1-vcj"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
