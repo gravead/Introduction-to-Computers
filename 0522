@@ -1,0 +1,139 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPMu3tVxCC7sdIynOer3CQh",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/gravead/Introduction-to-Computers/blob/main/0522\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0K_BzfToLR5Q",
+        "outputId": "4b5509ae-758f-4b0b-8fbc-2a0c9f0b51c1"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0522\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"0522\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " list1= range(1,5)"
+      ],
+      "metadata": {
+        "id": "DjvdS9TTL00u"
+      },
+      "execution_count": 26,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list3=range(-2,4)"
+      ],
+      "metadata": {
+        "id": "IW9gR3QrVGXN"
+      },
+      "execution_count": 28,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list4=range(6)"
+      ],
+      "metadata": {
+        "id": "FzOIbihnVmNs"
+      },
+      "execution_count": 29,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list1"
+      ],
+      "metadata": {
+        "id": "ZOEjz_z-QRkh",
+        "outputId": "b7f3a825-c8c7-443e-e682-2047f02c97f7",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "range(1, 5)"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list2=range(3,8)\n",
+        "list2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FH_Uel_8ROLd",
+        "outputId": "2d5c8fc9-ceba-4bf1-c3b9-1e0b3fc05c5b"
+      },
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "range(3, 8)"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 31
+        }
+      ]
+    }
+  ]
+}
